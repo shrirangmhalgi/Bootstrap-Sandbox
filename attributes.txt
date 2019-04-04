@@ -1,0 +1,82 @@
+Bootstrap reference attributes.
+
+Modals
+data-toggle="modal" - Triggers click to open a modal dialog referenced by data-target="element" data-target="target-element" - The element that the modal should open (can be #id or .class)
+data-dismiss="modal" - Triggers close of the modal on click
+
+Dropdowns
+data-toggle="dropdown" - Triggers click to open a drop-down
+data-target="#" - Only exists to help when use the dropdown on link to prevent url change
+
+ScrollSpy
+data-spy="scroll" - Triggers the SpyScroll on the element (usually goes to <body>
+data-target="target-element" - The element that the scroll-spy should by applied to
+data-offset="X" - X represents the number of pixels from top when calculating position of scroll
+
+Togglable tabs
+data-toggle="tab" - Triggers click to open the relevant tab referenced by data-target="element"
+data-toggle="pill" - Same as tab but for pill-styling
+data-target="target-element" - The element that the modal should open (can be #id or .class)
+
+Note that it's also possible to use href="#target-element-id" and not only data-target here
+
+Tooltips
+data-toggle="tooltip" - Triggers adding a tooltip to the element
+
+The tooltip has many data attributes, so this is only the list of all of them with the available values. Complete explanation of all of them is in this link.
+
+data-animation
+data-container
+data-delay
+data-html
+data-placement
+data-selector
+data-template
+data-title
+data-trigger
+data-viewport
+
+Popovers
+data-toggle="popover" - Triggers click to open a popover
+
+The popovers has many data attributes, so this is only the list of all of them with the available values. Complete explanation of all of them is in this link.
+
+data-animation
+data-container
+data-content
+data-delay
+data-html
+data-placement
+data-selector
+data-template
+data-title
+data-trigger
+data-viewport
+
+Alert messages
+data-dismiss="alert" - Triggers click to close the alert box created by bootstrap
+
+Buttons
+data-loading-text="Loading..." - Show a text while loading (note that it's deprecated)
+data-toggle="button" - note the singular Makes a button single toggle-button data-toggle="buttons" - note the plural Makes a group of buttons a toggle-buttons
+data-complete-text="Finished" - Text to change on button when the method complete is called
+
+Collapse
+data-toggle="collapse" - Triggers click to collapse the referenced element
+data-target="element" - The referenced element
+data-parent="element" - The parent element, used for accordion-style collapsing
+
+Carousel
+data-ride="carousel" - Triggers a slide-show (carousel) on the container
+data-target="element" - The referenced carousel element that this element is part of
+data-slide-to="X" - X is the number of the next slide
+data-slide="prev|next" - Triggers click to toggle the carousel to the prev|next slide
+data-interval="X" - The amount of time to delay between automatically cycling an item
+data-pause="hover" - Pause the cycling on mouse over
+data-wrap="true" - Whether the carousel should cycle continuously or have hard stops
+data-keyboard="true" - Whether the carousel should react to keyboard events
+
+Affix
+data-spy="affix" - Triggers affix (emulating the sticky positioning effect)
+data-offset-top="X" - Number of pixels to offset the element from top
+data-offset-bottom="X" - Number of pixels to offset the element from bottom
